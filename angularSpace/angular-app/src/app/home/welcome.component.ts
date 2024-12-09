@@ -6,10 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./welcome.component.css']
 })
 export class Welcome implements OnInit {
-
+  const gmailCreds = "Winters@2024"
   constructor() { }
 
   ngOnInit() {
+    console.log(this.gmailCreds);
   }
 
 }
